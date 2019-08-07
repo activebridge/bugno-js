@@ -6,7 +6,7 @@ npm install https://github.com/activebridge/bugno-js
 ```
 
 ## Usage
-    var Bugno = require('bugno');
+    var Bugno = require('bugno-js');
     var bugno = new Bugno({
         accessToken: 'API-KEY',
         captureUncaught: true,
