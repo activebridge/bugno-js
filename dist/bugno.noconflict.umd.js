@@ -2778,7 +2778,9 @@ if (data.framework == 'browser-js') {
     framework: data.framework,
     backtrace: data.body.trace.frames,
     ip_address: data.request.ip_address,
-    url: data.request.url
+    url: data.request.url,
+    person_data: data.client,
+    params: data.request
  }
 } else if (data.framework == 'node-js') {
   payload = {
