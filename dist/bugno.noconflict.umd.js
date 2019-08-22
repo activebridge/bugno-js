@@ -2777,8 +2777,6 @@ if (data.framework == 'browser-js') {
     message: data.body.trace.exception.message,
     framework: data.framework,
     backtrace: data.body.trace.frames,
-    ip_address: data.request.ip_address,
-    url: data.request.url,
     person_data: data.client,
     params: data.request
  }
