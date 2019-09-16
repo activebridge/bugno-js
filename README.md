@@ -2,12 +2,19 @@
 ## Installation
 Install via npm
 ```
-npm install https://github.com/activebridge/bugno-js
+npm i https://github.com/activebridge/bugno-js
 ```
 
 ## Usage
-    var Bugno = require('bugno-js');
-    var bugno = new Bugno({
+### Browser-js
+
+Add content of the following snippet before everything you want to track into your page head.
+
+[Open snippet](https://raw.githubusercontent.com/activebridge/bugno-js/master/dist/bugno.snippet.js "Open snippet")
+
+Replace API-KEY with your project api-key on [Bugno.io](https://bugno.io "Bugno.io")
+
+    var _bugnoConfig = ({
         accessToken: 'API-KEY',
         captureUncaught: true,
         captureUnhandledRejections: true
@@ -15,6 +22,14 @@ npm install https://github.com/activebridge/bugno-js
 
 ## Configuration
 To setup additional configuration change defined Bugno object's properties.
+
+##### bugnoJsUrl
+
+Specify snippet version for browser-js, e.g.:
+
+`bugnoJsUrl: 'https://cdn.jsdelivr.net/gh/activebridge/bugno-js@0.1.3/dist/bugno.min.js'`
+
+Default: `latest from master branch`
 
 ##### itemsPerMinute
 Send specified amount of errors per minute.
