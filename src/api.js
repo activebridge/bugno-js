@@ -57,7 +57,9 @@ if (data.framework == 'browser-js') {
     framework: data.framework,
     backtrace: data.body.trace.frames,
     person_data: data.client,
-    params: data.request
+    params: data.request,
+    client: data.client.timestamp,
+    headers: { 'User-Agent': data.client.javascript.browser }
  }
 } else if (data.framework == 'node-js') {
   payload = {
