@@ -1,5 +1,9 @@
 # Change Log
 
+### v0.1.4
+
+- Change default cdn url to github master branch
+
 ### v0.1.3
 
 - Add timestamp and user-agent header

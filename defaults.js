@@ -12,7 +12,7 @@ module.exports = {
   __DEFAULT_LOG_LEVEL__: JSON.stringify(pkg.defaults.logLevel),
   __DEFAULT_REPORT_LEVEL__: JSON.stringify(pkg.defaults.reportLevel),
   __DEFAULT_UNCAUGHT_ERROR_LEVEL: JSON.stringify(pkg.defaults.uncaughtErrorLevel),
-  __DEFAULT_BUGNOJS_URL__: JSON.stringify('https://' + pkg.cdn.host + '/ajax/libs/bugno.js/' + version + '/bugno.min.js'),
+  __DEFAULT_BUGNOJS_URL__: JSON.stringify('https://cdn.jsdelivr.net/gh/activebridge/bugno-js/dist/bugno.min.js'),
   __DEFAULT_MAX_ITEMS__: pkg.defaults.maxItems,
   __DEFAULT_ITEMS_PER_MIN__: pkg.defaults.itemsPerMin
 };
