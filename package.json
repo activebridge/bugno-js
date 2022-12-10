@@ -30,7 +30,7 @@
     "chalk": "^1.1.1",
     "eslint": "^5.16.0",
     "eslint-loader": "^2.1.2",
-    "express": "^4.16.4",
+    "express": "^4.17.3",
     "glob": "^5.0.14",
     "grunt": "^1.0.3",
     "grunt-blanket-mocha": "^1.0.0",
